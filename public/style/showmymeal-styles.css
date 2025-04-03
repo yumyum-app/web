@@ -1,0 +1,352 @@
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logocontainer{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo{
+    margin-left: 6px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+    color: #474747;
+}   
+
+.logo-img {
+    height: 55px;
+    width: 53px;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+    font-weight: bold;
+}
+
+nav ul li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.find {
+    background-color: #DBDFD0;
+    padding: 4px 16px;
+    border-radius: 15px;
+}
+
+.loginlink {
+    border-radius: 118px;
+    padding: 4px 16px;
+    border: 1.5px solid black;
+}
+
+
+.recommended-section>h1 {
+    text-align: center;
+    padding: 20px 50px 0px;
+    font-size: 55px;
+    font-weight: normal;
+    font-family: "Playfair Display",serif;
+    color: black;
+}
+.recommended-section>p {
+    text-align: center;
+    padding: 0px 50px 20px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Playfair Display",serif;
+    color: gray;
+}
+.meal-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.meal-card {
+    background: white;
+    padding: 0px 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* text-align: left; */
+    align-items: center;
+    max-width: 280px;
+    /* overflow: hidden; */
+    /* position: relative; */
+    display: flex;flex-direction: column;
+    font-family:'DM sans', serif;
+}
+
+.meal-card>img {
+    width: 310px;
+    border-radius: 10px;
+    max-height: 200px;
+    border-top-left-radius: 15px;  /* Radius hanya di kiri atas */
+    border-top-right-radius: 15px; /* Radius hanya di kanan atas */
+    border-bottom-left-radius: 0;  /* Pastikan bawah tetap tajam */
+    border-bottom-right-radius: 0;
+}
+
+.meal-card .meal-info {
+    text-align: left;
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.meal-card .meal-category {
+    font-size: 14px;
+    color: #777;
+}
+
+.meal-card>h3 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.meal-card>p{
+    font-size: 14px;
+}
+
+.meal-card .meal-info{
+    text-align: left;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.favorite-icon {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 50px;
+}
+
+/* .favorite-icon.active {
+    fill: red; /* Mengisi warna merah saat aktif */
+
+
+
+
+
+
+.meal-card .btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 15px;
+    background: #a83232;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.meal-card .btn:hover {
+    background: #8b2929;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff4500;
+}
+
+.tulisan{
+    margin: 60px;
+    display: flex;flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.more-meal{
+    background-color: #F9F9F7;
+    
+}
+.more-meal>h1{
+    text-align: center;
+    padding: 80px 50px 80px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: "Playfair Display",serif;
+    color: black;
+}
+
+.tombol-bawah{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    gap: 30px;
+    font-family:'DM sans', serif;
+}
+.button-bottom-left{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 25px;
+    background: #a83232;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.button-bottom-right{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid black; /* Tambahkan ini */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    height: 728px;
+    background-color: rgba(71, 71, 71, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content{ 
+    height: 419px;   
+    width: 1157px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 98.82px;
+}
+
+.footer-1{
+    width: 293px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.footer-1 img{
+    width: 212px;
+    height: 55;
+}
+
+.footer-1 p{
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(173, 178, 158, 1);
+    line-height: 24px;
+}
+
+.footer-1 .footer-1-icons img{
+    width: 35px;
+    height: 35px;
+}
+
+.footer-2-1 p, .footer-3 p{
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1) !important;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.footer-2-2{
+    height: 156px;
+    width: 71px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-2-2 p{
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(219, 223, 208, 1);
+    line-height: 24px;
+}
+
+.footer-2-2 p:hover{
+    color: rgba(173, 178, 158, 1);
+}
+
+.footer-3{
+    width: 403px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-wrapper{
+    width: 403px;
+    height: 355px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-wrapper-row{
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-copyright{
+    width: 424px;
+    margin-top: 108px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(173, 178, 158, 1);
+    font-size: 16px;
+    line-height: 24px;
+}

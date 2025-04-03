@@ -1,0 +1,498 @@
+/* styles.css */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logocontainer{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo{
+    margin-left: 6px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+    color: #474747;
+}   
+
+.logo-img {
+    height: 55px;
+    width: 53px;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+    font-weight: bold;
+}
+
+nav ul li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.find {
+    background-color: #DBDFD0;
+    padding: 4px 16px;
+    border-radius: 15px;
+}
+
+.loginlink {
+    border-radius: 118px;
+    padding: 4px 16px;
+    border: 1.5px solid black;
+}
+
+
+
+body {
+    font-family: "DM Sans", serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.upper-section {
+    position:sticky;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 10px 20px 100px;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: red; */
+}
+.image-container img {
+    border-radius: 20px;
+    width: 98%;
+}
+
+.text-container>h1{
+    font-family: "Playfair Display",serif;
+    font-size: 55px;
+    text-align: left;
+    margin-left: 60px;
+}
+.text-container>p{
+    margin-top: -10px;
+    font-size:18px; 
+    font-style:"DM Sans",serif;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.meal-form{
+    margin: 90px;
+    /* row-gap: 90px; */
+    font-style: "Playfair Display",serif;
+}
+
+.form-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+
+.form-group h2 {
+    /* font-style: "Playfair Display",serif; */
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-family: "Playfair Display", serif;
+}
+
+  /* Kumpulan radio button */
+
+.radio-group {
+    display: inline-flex;
+    flex-wrap: wrap;   /* Supaya bisa turun ke baris berikutnya kalau sempit */
+    /* gap: 160px;        */
+    column-gap: 130px;
+    row-gap: 40px;
+      /* Jarak antar radio button */
+    /* align-items: center; */
+    justify-content: center;
+    max-width: 970px;
+    /* font-family: "Playfair Display", serif; */
+    margin-top: 10px;
+}
+.radio-group-1 {
+    display: inline-flex;
+    flex-wrap: wrap;   
+    column-gap: 130px;
+    row-gap: 40px;
+    justify-content: inherit;
+    max-width: 970px;
+    /* font-family: "Playfair Display", serif; */
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.radio-group-1 label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    /* font-family: "Playfair Display", serif; */
+}
+
+.radio-group-1 input[type="radio"] {
+    margin-right: 20px;
+    transform: scale(1.5)
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    /* font-family: "Playfair Display", serif; */
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 20px;
+    transform: scale(1.5)
+}
+
+.radio-group-2 {
+    display: inline-flex;
+    flex-wrap: wrap;   
+    column-gap: 130px;
+    row-gap: 30px;
+    justify-content: inherit;
+    max-width: 1500px;
+    /* font-family: "Playfair Display", serif; */
+    margin-top: 10px;
+}
+
+.radio-group-2 label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    /* font-family: "Playfair Display", serif; */
+}
+
+.radio-group-2 input[type="radio"] {
+    margin-right: 20px;
+    transform: scale(1.5)
+}
+
+
+.tombol-bawah{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    gap: 30px;
+    font-family:'DM sans', serif;
+}
+
+.submit-btn {
+    margin-top: 90px;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 20px 45px;
+    background: #a83232;
+    color: white;
+    border: #a83232;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+  /* Hover efek pada tombol */
+.submit-btn:hover {
+    background-color: #e04e53;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logocontainer{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo{
+    margin-left: 6px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+    color: #474747;
+}   
+
+.logo-img {
+    height: 55px;
+    width: 53px;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+    font-weight: bold;
+}
+
+nav ul li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.find {
+    background-color: #DBDFD0;
+    padding: 4px 16px;
+    border-radius: 15px;
+}
+
+.loginlink {
+    border-radius: 118px;
+    padding: 4px 16px;
+    border: 1.5px solid black;
+}
+
+
+.recommended-section>h1 {
+    text-align: center;
+    padding: 20px 50px 0px;
+    font-size: 55px;
+    font-weight: normal;
+    font-family: "Playfair Display",serif;
+    color: black;
+}
+.recommended-section>p {
+    text-align: center;
+    padding: 0px 50px 20px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Playfair Display",serif;
+    color: gray;
+}
+.meal-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.meal-card {
+    background: white;
+    padding: 0px 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* text-align: left; */
+    align-items: center;
+    max-width: 280px;
+    /* overflow: hidden; */
+    /* position: relative; */
+    display: flex;flex-direction: column;
+    font-family:'DM sans', serif;
+}
+
+.meal-card>img {
+    width: 310px;
+    border-radius: 10px;
+    max-height: 200px;
+    border-top-left-radius: 15px;  /* Radius hanya di kiri atas */
+    border-top-right-radius: 15px; /* Radius hanya di kanan atas */
+    border-bottom-left-radius: 0;  /* Pastikan bawah tetap tajam */
+    border-bottom-right-radius: 0;
+}
+
+.meal-card .meal-info {
+    text-align: left;
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.meal-card .meal-category {
+    font-size: 14px;
+    color: #777;
+}
+
+.meal-card>h3 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.meal-card>p{
+    font-size: 14px;
+}
+
+.meal-card .meal-info{
+    text-align: left;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.favorite-icon {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 50px;
+}
+
+/* .favorite-icon.active {
+    fill: red; /* Mengisi warna merah saat aktif */
+
+
+
+
+
+
+.meal-card .btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 15px;
+    background: #a83232;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.meal-card .btn:hover {
+    background: #8b2929;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff4500;
+}
+
+.tulisan{
+    margin: 60px;
+    display: flex;flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.more-meal{
+    background-color: #F9F9F7;
+    
+}
+.more-meal>h1{
+    text-align: center;
+    padding: 80px 50px 80px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: "Playfair Display",serif;
+    color: black;
+}
+
+.tombol-bawah{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    gap: 30px;
+    font-family:'DM sans', serif;
+}
+.button-bottom-left{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 25px;
+    background: #a83232;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.button-bottom-right{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid black; /* Tambahkan ini */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+

@@ -1,0 +1,95 @@
+body{
+    font-family:'DM sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logocontainer{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo{
+    margin-left: 6px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+    color: #474747;
+}   
+
+.logo-img {
+    height: 55px;
+    width: 53px;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+    font-weight: bold;
+}
+
+.favoritelink {
+    background-color: #DBDFD0;
+    padding: 4px 16px;
+    border-radius: 15px;
+}
+
+.loginlink {
+    border-radius: 118px;
+    padding: 4px 16px;
+    border: 1.5px solid black;
+}
+
+.text1 {
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+    font-size: 76px;
+
+    margin: 0;
+    margin-bottom: 12px;
+    margin-top: 130px;
+}
+
+.text2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 200px;
+}
+
+.div1 {
+    /* template center */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    /* arah */
+    flex-direction: column;
+}

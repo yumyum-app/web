@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logocontainer {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    margin-left: 6px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+    color: #474747;
+}   
+
+.logo-img {
+    height: 55px;
+    width: 53px;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+    font-weight: bold;
+}
+
+.loginlink {
+    border-radius: 118px;
+    padding: 4px 16px;
+    color: white;
+    background-color: black;
+    border: 1.5px solid black;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    font-size: inherit; /* Ensure it follows .edit-btn p styles */
+    font-weight: inherit;
+}
+
+.relative{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper{
+    height: 1079px;
+}
+
+.hero-1-bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; 
+}
+
+.hero-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 597px;
+    width: 788px;
+    margin-top: 93px;
+    margin-left: 100px;
+    gap: 53px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-title h1 {
+    font-family: playfair display, serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: rgba(44, 47, 36, 1);
+    line-height: 96px;
+}
+
+.hero-form{
+    width: 788px;
+    height: 448px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 2.98px 59.57px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease-out forwards;
+
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideIn 0.8s ease-out forwards 0.3s;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hero-content{
+    width: 717px;
+    height: 296px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content-wrapper{
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-content-wrapper input{
+    height: 60px;
+    width: 693px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 24px;
+    border-radius: 72px;
+    background-color: white;
+    border: 1px solid rgba(219, 223, 208, 1);
+
+    transition: box-shadow 0.3s ease;
+}
+
+.hero-content-wrapper input:focus {
+    box-shadow: 0 0 8px rgba(173, 52, 62, 0.5);
+    outline: none;
+}
+
+.hero-content-wrapper p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.btn{
+    height: 60px;
+    width: 717px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(27, 33, 38, 1);
+    line-height: 24px;
+    border-radius: 72px;
+    background: transparent;
+    border-color: 1px solid rgba(0, 0, 0, 1);
+
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn:hover {
+    background: rgba(27, 33, 38, 0.1);
+}
+
+.register-link {
+    margin-left: 62px;
+}
+
+.register-link p{
+    font-size: 16px;
+    font-weight: 700;
+    color:black;
+}
+
+.register-link a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgba(173, 52, 62, 1);
+}
