@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="{{ asset("style/register.css") }}">
-    <link rel="stylesheet" href="{{ asset("style/footer.css") }}">
+@extends('templates.index')
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <header>
-        <div class="logocontainer"> 
-            <img src="../img/japanese-food.png" alt="yum yum" class="logo-img">
-            <div class="logo">YumYum</div>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">Find</a>
-                    <a href="">Menu</a>
-                    <a class="favoritelink" href="">Favorites</a>
-                    <div class="profile">
-                        <img src="../img/Ellipse 45.png">
-                        <a href="">Sabrina</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
+@section('content')
    <div class="relative">
     <div class="content-wrapper">
         <div class="hero-1-bg">
@@ -44,7 +9,9 @@
         
         <a href="login.html">
             <div class="back">
-                <img src="/img/fluent-mdl2_back.png" alt="Back Icon">
+                <a href="/login">
+                    <img src="/img/fluent-mdl2_back.png" alt="Back Icon">
+                </a>
             </div>
         </a>
         <div class="hero-1">
@@ -80,7 +47,7 @@
                     <div class="hero-content-wrapper">
                         <p>Password</p>
                         <div class="login-input"> 
-                            <input type="text" placeholder="Enter password" name="password" required>
+                            <input type="password" placeholder="Enter password" name="password" required>
                         </div>
                     </div>
         
@@ -140,5 +107,4 @@
         </div>
     </div>
    </div>
-</body>
-</html>
+@endsection

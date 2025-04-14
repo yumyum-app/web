@@ -1,4 +1,10 @@
 
+body {
+    font-family:'DM sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
 header{
     display:flex;
     justify-content: space-between;
@@ -125,6 +131,10 @@ nav ul li div{
     margin-left: 10px;
 }
 
+.meal-info {
+    width: 100%;
+}
+
 .meal-card .meal-category {
     font-size: 14px;
     color: #777;
@@ -141,12 +151,14 @@ nav ul li div{
 
 .meal-card .meal-info{
     text-align: left;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     margin-top: 10px;
 }
 .favorite-icon {
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
+    float: right;
+    margin-right: 10px;
     margin-left: 50px;
 }
 

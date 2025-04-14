@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+#uploadBox {
+    display: none; /* Hide the upload box by default */
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: center;
+}
 
 header{
     display:flex;

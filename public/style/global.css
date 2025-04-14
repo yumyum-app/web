@@ -1,0 +1,12 @@
+.profile {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}
+
+.menulink {
+    background-color: #DBDFD0;
+    padding: 4px 16px;
+    border-radius: 15px;
+}

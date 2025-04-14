@@ -73,12 +73,6 @@ nav ul li a {
     
 }
 
-.menulink {
-    background-color: #DBDFD0;
-    padding: 4px 16px;
-    border-radius: 15px;
-}
-
 .loginlink {
     border-radius: 118px;
     padding: 4px 16px;
@@ -174,8 +168,8 @@ nav ul li a {
 }
 
 .favorite-icon {
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
     overflow: visible;
     margin-top: 15px;
 }
