@@ -14,12 +14,6 @@
             <div class="profile-name">{{ auth()->user()->name }}</div>
             <div class="profile-email">{{ auth()->user()->email }}</div>
         </div>
-        <a href="/edit-profile">
-            <div class="edit-btn" >
-                <p>Edit Profile</p  >
-                <img src="../img/tabler_edit.png" alt="Edit Button">
-            </div>
-        </a>    
     </div>
 
     <div class="profile-data">
