@@ -27,4 +27,4 @@ Perhatikan nama database, pastikan database telah dibuat sebelumnya.
 5. Untuk mengimport database jalankan perintah 'php artisan import:csv (Path recipe.csv)'
 6. Jalankan 'php artisan serve' untuk menjalankan development server
 7. Secara default web akan berjalan pada 127.0.0.1:8000
-8. Untuk menjalankan sistem rekomendasi, lakukan setup aplikasi flask pada repository food_recommender
+8. Untuk menjalankan sistem rekomendasi, lakukan setup aplikasi flask pada repository https://github.com/yumyum-app/MealRec
